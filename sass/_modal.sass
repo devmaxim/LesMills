@@ -1,0 +1,101 @@
+.modal
+	display: none
+	z-index: 99
+	&::before
+		content: ''
+		background-color: #11151a
+		position: fixed
+		height: 100%
+		width: 100% 
+		top: 0
+		left: 0
+		opacity: 0.5
+	&__form
+		&-block
+			position: fixed
+			top: 15%
+			left: 50%
+			-webkit-transform: translateX(-50%)
+			-moz-transform: translateX(-50%)
+			-ms-transform: translateX(-50%)
+			-o-transform: translateX(-50%)
+			transform: translateX(-50%)
+			width: 250px
+			box-shadow: 0 0 50px 12px rgba(0, 0, 0, 0.26)
+			border-radius: 4px
+			background-color: #202a33
+			z-index: 99
+			padding: 25px
+		display: flex
+		-webkit-flex-direction: column
+		-ms-flex-direction: column
+		flex-direction: column
+		position: relative
+	&__close
+		font-family: $gilroy-semibold
+		font-size: 25px
+		text-transform: uppercase
+		color: $active-color 
+		cursor: pointer
+		position: absolute
+		top: -25px
+		right: -17px
+	&__title
+		font-family: $gilroy-regular
+		font-size: 24px
+		line-height: 30px
+		margin: 0
+		margin-bottom: 17px
+	&__subtitle
+		font-family: $gilroy-regular
+		font-size: 16px
+		line-height: 20px
+		margin: 0
+		margin-bottom: 25px
+	&__name
+		border-radius: 4px
+		background-color: #e8e8e8
+		color: #444444
+		font-family: $gilroy-regular
+		font-size: 14px
+		line-height: 18px
+		border: none
+		padding: 15px 0 15px 22px
+		margin-bottom: 8px
+	&__tel
+		border-radius: 4px
+		background-color: #e8e8e8
+		color: #444444
+		font-family: $gilroy-regular
+		font-size: 14px
+		line-height: 18px
+		border: none
+		padding: 15px 0 15px 22px
+		margin-bottom: 30px
+	&__button
+		display: flex
+		-webkit-justify-content: space-between
+		justify-content: space-between
+		padding: 15px 16px 14px
+		border-radius: 4px
+		background-color: $active-color
+		border: none
+		cursor: pointer
+		margin-bottom: 20px
+		span
+			color: #282c3b
+			font-family: $gilroy-bold
+			font-size: 14px
+			text-transform: uppercase
+	&__checkbox
+		margin-right: 9px
+		&-block
+			display: flex
+			-webkit-flex-direction: row
+			-ms-flex-direction: row
+			flex-direction: row
+	&__label
+		color: #858585
+		font-family: $gilroy-light
+		font-size: 12px
+		line-height: 16px

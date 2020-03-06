@@ -1,0 +1,239 @@
+.advantages
+	background: black url('../img/advantages/advantages-bg.png') center no-repeat
+	-webkit-background-size: auto
+	-o-background-size: auto
+	background-size: auto
+	padding-top: 90px
+	padding-bottom: 100px
+	margin-top: -1px
+	&__text
+		&-title
+			font-family: $gilroy-extra-bold
+			font-size: 38px
+			line-height: 50px
+			text-transform: uppercase
+			text-align: center
+			margin: 0
+			margin-bottom: 62px
+			width: 970px
+			margin-left: auto
+			margin-right: auto
+			&-media
+				display: none
+			span
+				color: #f4c611
+				font-family: $gilroy-extra-bold-italic
+		&-description
+			display: flex
+			-webkit-justify-content: space-between
+			justify-content: space-between
+			&-item
+				display: flex
+				-webkit-align-items: center
+				align-items: center
+				p
+					font-family: $gilroy-regular
+					font-size: 24px
+					line-height: 30px
+					margin: 0
+				&-1
+					width: 420px
+				&-2
+					width: 515px
+				img
+					margin-right: 21px
+					-webkit-filter: drop-shadow(3px 0px 8px rgba(255, 205, 0, 1))
+					filter: drop-shadow(3px 0px 8px rgba(255, 205, 0, 1))
+	&__slider
+		display: flex
+		-webkit-flex-direction: column
+		-ms-flex-direction: column
+		flex-direction: column
+		&-item
+			&s
+				margin-top: 400px
+				display: flex
+				-webkit-justify-content: space-between
+				justify-content: space-between
+				-webkit-align-items: center
+				align-items: center
+				margin-bottom: 20px
+			-webkit-flex-basis: 20% 
+			flex-basis: 20% 
+			display: flex
+			-webkit-justify-content: center
+			justify-content: center
+			min-height: 113px
+			border-radius: 4px
+			-webkit-transition: all .3s 
+			-moz-transition: all .3s 
+			-ms-transition: all .3s 
+			-o-transition: all .3s 
+			transition: all .3s 
+			img
+			 	height: 100%
+			 	margin-top: auto
+			 	margin-bottom: auto 
+			&-1
+				&:hover
+					box-shadow: 1px 11px 39px 7px rgba(110, 110, 51, 0.4)
+					cursor: pointer
+			&-2
+				&:hover
+					box-shadow: 1px 11px 65px 7px rgba(166, 95, 186, 0.4)
+					cursor: pointer
+			&-3
+				&:hover
+					box-shadow: 1px 11px 65px 7px rgba(55, 146, 229, 0.4)
+					cursor: pointer
+			&-4
+				&:hover
+					box-shadow: 1px 11px 65px 7px rgba(12, 174, 203, 0.4)
+					cursor: pointer
+			&-5
+				&:hover
+					box-shadow: 1px 11px 65px 7px rgba(255, 69, 69, 0.4)
+					cursor: pointer
+		&-info
+			display: flex
+			border-radius: 4px
+			background-color: #202a33
+			padding: 50px
+			&-1
+				box-shadow: 5px 10px 108px 34px rgba(110, 110, 51, 0.3)
+			&-2
+				box-shadow: 1px 11px 65px 7px rgba(166, 95, 186, 0.4)
+			&-3
+				box-shadow: 1px 11px 65px 7px rgba(55, 146, 229, 0.4)
+			&-4
+				box-shadow: 1px 11px 65px 7px rgba(12, 174, 203, 0.4)
+			&-5
+				box-shadow: 1px 11px 65px 7px rgba(255, 69, 69, 0.4)
+			
+		&-text
+			margin-right: 50px
+			&-title
+				font-family: $gilroy-regular
+				font-size: 24px
+				line-height: 30px
+				width: 330px
+				margin-top: 0
+				&-media
+					display: none
+		&-list
+			&-item
+				font-family: $gilroy-regular
+				font-size: 14px
+				line-height: 18px
+				margin-bottom: 18px
+				list-style: none
+				position: relative
+				span
+					color: $active-color 
+					font-family: $gilroy-semibold-italic 
+				&::before
+					content: ''
+					position: absolute
+					background: url('../img/trial/trial-list-arrow.png') center no-repeat
+					width: 11px
+					height: 13px
+					top: 50%
+					-webkit-transform: translateY(-40%)
+					-moz-transform: translateY(-40%)
+					-ms-transform: translateY(-40%)
+					-o-transform: translateY(-40%)
+					transform: translateY(-40%)
+					-webkit-filter: drop-shadow(3px 3px 8px rgba(255, 205, 0, 1))
+					filter: drop-shadow(3px 3px 8px rgba(255, 205, 0, 1))
+					left: -37px
+		&-options
+			display: flex
+			margin-top: 32px
+			margin-bottom: 30px
+			p
+				margin: 0
+				margin-right: 54px
+				font-family: $gilroy-extra-bold-italic
+				font-size: 14px
+				line-height: 18px
+				span
+					color: $active-color 
+		&-complexity
+			span
+				font-family: $gilroy-extra-bold-italic
+				font-size: 14px
+				line-height: 18px
+			&-images
+				display: flex
+				img
+					margin-left: -3px
+					width: 19px
+					height: 11px
+
+		&-button
+			width: 237px
+			padding-top: 5px
+			padding-bottom: 4px
+			padding-left: 18px
+			text-align: left
+			color: #282c3b
+			font-family: $gilroy-bold
+			font-size: 14px
+			line-height: 38px
+			text-transform: uppercase
+			position: relative
+			border-radius: 4px
+			background-color: #ffcd00
+			border: none
+			cursor: pointer
+			-webkit-transition: all .5s 
+			-moz-transition: all .5s 
+			-ms-transition: all .5s 
+			-o-transition: all .5s 
+			transition: all .5s 
+			&:hover
+				box-shadow: 1px 1px 21px 5px rgba(255, 205, 0, .4)
+			img
+				position: absolute
+				top: 50%
+				-webkit-transform: translateY(-55%)
+				-moz-transform: translateY(-55%)
+				-ms-transform: translateY(-55%)
+				-o-transform: translateY(-55%)
+				transform: translateY(-55%)
+				right: 15px
+	&__video
+		&-item
+			border: none
+			width: 720px
+			height: 500px
+	&__media
+		&-slider
+			display: none
+
+
+
+
+
+
+
+
+
+
+
+
+.active-item-1
+	background-color: #202a33
+	box-shadow: 1px 11px 39px 7px rgba(110, 110, 51, 0.4)
+.active-item-2
+	background-color: #202a33
+	box-shadow: 1px 11px 65px 7px rgba(166, 95, 186, 0.4)
+.active-item-3
+	background-color: #202a33
+	box-shadow: 1px 11px 65px 7px rgba(55, 146, 229, 0.4)
+.active-item-4
+	background-color: #202a33
+	box-shadow: 1px 11px 65px 7px rgba(12, 174, 203, 0.4)
+.active-item-5
+	background-color: #202a33
+	box-shadow: 1px 11px 65px 7px rgba(255, 69, 69, 0.4)

@@ -1,0 +1,177 @@
+.action
+	background: black url('../img/action/action-bg.png') center no-repeat
+	-webkit-background-size: auto 
+	-o-background-size: auto 
+	background-size: auto 
+	margin-top: -2px
+	padding-top: 50px
+	padding-bottom: 200px
+	&__image
+		&-media
+			display: none
+	&__text
+		margin-bottom: 48px
+		&-title
+			text-align: center
+			font-family: $gilroy-extra-bold
+			font-size: 38px
+			line-height: 50px
+			text-transform: uppercase
+			margin-top: 0
+			margin-bottom: 29px
+			span
+				color: #d9ae01
+				font-family: $gilroy-extra-bold-italic
+		&-subtitle
+			font-family: $gilroy-regular
+			font-size: 24px
+			line-height: 30px
+			text-align: center
+			margin: 0
+			&-2
+				font-family: $gilroy-regular
+				font-size: 24px
+				line-height: 30px
+				display: block
+				text-align: center
+	&__item
+		&s
+			display: flex
+			-webkit-justify-content: space-between
+			justify-content: space-between
+			-webkit-align-items: center
+			align-items: center
+			margin-bottom: 530px
+		box-shadow: 1px 8px 21px 1px rgba(255, 205, 0, 0.05)
+		border-radius: 4px
+		background-color: #202a33
+		opacity: 0.92
+		padding-top: 16px
+		padding-left: 22px
+		padding-bottom: 20px
+		p
+			margin: 0
+			font-family: $gilroy-regular
+			font-size: 18px
+			line-height: 22px
+		&-1
+			p
+				width: 280px
+				padding-right: 26px
+		&-2
+			p
+				width: 300px
+				padding-right: 23px
+		&-3
+			p
+				width: 230px
+				padding-right: 30px
+		&-image
+			margin-left: 40px
+			margin-right: 50px
+	&__trial
+		display: flex
+		-webkit-justify-content: space-around
+		justify-content: space-around
+		-webkit-align-items: center
+		align-items: center
+		&-media
+			display: none
+		&-text
+			p
+				font-family: $gilroy-regular
+				font-size: 24px
+				line-height: 30px
+				width: 430px
+				margin: 0
+		&-list
+			display: flex
+			-webkit-justify-content: space-between
+			justify-content: space-between
+			list-style: none
+			margin-top: 29px
+			&-media
+				display: none
+			&-item
+				position: relative
+				font-family: $gilroy-extra-bold-italic
+				font-size: 14px
+				line-height: 18px
+				&-media
+					&-2
+						display: none
+					&-3
+						display: none
+				&::before
+					content: ''
+					position: absolute
+					background: url('../img/trial/trial-list-arrow.png') center no-repeat
+					width: 11px
+					height: 13px
+					top: 20%
+					-webkit-transform: translateY(-40%)
+					-moz-transform: translateY(-40%)
+					-ms-transform: translateY(-40%)
+					-o-transform: translateY(-40%)
+					transform: translateY(-40%)
+					-webkit-filter: drop-shadow(3px 3px 8px rgba(255, 205, 0, 1))
+					filter: drop-shadow(3px 3px 8px rgba(255, 205, 0, 1))
+					left: -35px
+	&__button
+		width: 520px
+		display: flex
+		-webkit-justify-content: space-between
+		justify-content: space-between
+		-webkit-align-items: center
+		align-items: center
+		padding: 25px 37px 25px 
+		box-shadow: 1px 11px 41px 1px rgba(255, 205, 0, 0.20)
+		border-radius: 4px
+		background-color: #010101
+		border: none
+		cursor: pointer
+		-webkit-transition: all .5s 
+		-moz-transition: all .5s 
+		-ms-transition: all .5s 
+		-o-transition: all .5s 
+		transition: all .5s 
+		&-media
+			display: none
+		&:focus
+			outline: none
+		&:hover
+			box-shadow: 1px 11px 41px 7px rgba(255, 205, 0, 1)
+		&-text
+			display: flex
+			-webkit-flex-direction: column
+			-ms-flex-direction: column
+			flex-direction: column
+		&-title
+			color: $text-color-light 
+			width: 300px
+			display: block
+			text-align: left
+			font-family: $gilroy-semibold
+			font-size: 26px
+			line-height: 32px
+			text-transform: uppercase
+		&-subtitle
+			width: 240px
+			text-align: left
+			color: $active-color
+			font-family: $gilroy-semibold
+			font-size: 18px
+			line-height: 38px
+			text-transform: uppercase
+			&-price
+				font-family: $gilroy-extra-bold-italic
+			sup
+				color: $text-color-light 
+				font-family: $gilroy-regular
+				font-size: 12px
+				line-height: 38px
+				text-decoration: line-through
+				text-transform: uppercase
+		&-arrow
+			-webkit-filter: drop-shadow(3px 0px 15px rgba(255, 205, 0, 0.45))
+			filter: drop-shadow(3px 0px 15px rgba(255, 205, 0, 0.45))

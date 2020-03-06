@@ -1,0 +1,174 @@
+.trial
+	padding-top: 110px
+	padding-bottom: 110px
+	background: black url('../img/trial/trial-bg.png') center -15px no-repeat
+	-webkit-background-size: cover 
+	-o-background-size: cover 
+	background-size: cover 
+	&__info
+		display: flex
+		-webkit-justify-content: space-between
+		justify-content: space-between
+	h2
+		margin: 0
+	&__text
+		&-title
+			font-family: $gilroy-extra-bold
+			font-size: 38px
+			line-height: 50px
+			text-transform: uppercase
+			width: 440px
+			span
+				color: $active-color
+		&-subtitle
+			margin-top: 82px
+			width: 480px
+			display: flex
+			-webkit-align-items: center
+			align-items: center
+			&-arrow
+				-webkit-filter: drop-shadow(3px 0px 10px rgba(255, 205, 0, 1))
+				filter: drop-shadow(3px 0px 10px rgba(255, 205, 0, 1))
+			p
+				margin: 0
+				font-family: $gilroy-regular
+				font-size: 24px
+				line-height: 30px
+				span
+					font-family: $gilroy-extra-bold-italic
+		&-call-to-action
+			font-family: $gilroy-extra-bold-italic
+			font-size: 14px
+			line-height: 18px
+			width: 200px
+			-webkit-align-self: flex-end
+			align-self: flex-end
+			margin-bottom: 38px
+			margin-right: 30px
+	&__list
+		margin-top: 45px
+		&-item
+			position: relative
+			font-family: $gilroy-regular
+			font-size: 14px
+			line-height: 18px
+			margin-bottom: 30px
+			width: 310px
+			list-style: none
+			&::before
+				content: ''
+				position: absolute
+				background: url('../img/trial/trial-list-arrow.png') center no-repeat
+				width: 11px
+				height: 13px
+				top: 50%
+				-webkit-transform: translateY(-50%)
+				-moz-transform: translateY(-50%)
+				-ms-transform: translateY(-50%)
+				-o-transform: translateY(-50%)
+				transform: translateY(-50%)
+				-webkit-filter: drop-shadow(3px 3px 8px rgba(255, 205, 0, 1))
+				filter: drop-shadow(3px 3px 8px rgba(255, 205, 0, 1))
+				left: -30px
+			&-2
+				width: 290px
+	&__block
+		&-form
+			display: flex
+			-webkit-flex-direction: column
+			-ms-flex-direction: column
+			flex-direction: column
+			-webkit-justify-content: flex-end
+			justify-content: flex-end
+			
+	&__form
+		padding: 35px
+		box-shadow: 0 0 50px 5px rgba(247, 199, 0, 0.1)
+		border-radius: 4px
+		background-color: #202a33
+		&-text
+			margin: 0
+			font-family: $gilroy-regular
+			font-size: 24px
+			line-height: 30px
+			margin-bottom: 24px
+			&-media
+				display: none
+		&-input
+			margin-right: 14px
+			width: 190px
+			padding-top: 14px
+			padding-bottom: 15px
+			padding-left: 22px
+			border-radius: 4px
+			background-color: #e8e8e8
+			border: none
+			color: #444444
+			font-family: $gilroy-regular
+			font-size: 14px
+			line-height: 18px
+			&-name
+				margin-right: 14px
+				width: 190px
+				padding-top: 14px
+				padding-bottom: 15px
+				padding-left: 22px
+				border-radius: 4px
+				background-color: #e8e8e8
+				border: none
+				color: #444444
+				font-family: $gilroy-regular
+				font-size: 14px
+				line-height: 18px
+		&-button
+			width: 163px
+			padding-top: 5px
+			padding-bottom: 4px
+			padding-left: 18px
+			text-align: left
+			color: #282c3b
+			font-family: $gilroy-bold
+			font-size: 14px
+			line-height: 38px
+			text-transform: uppercase
+			position: relative
+			border-radius: 4px
+			background-color: #ffcd00
+			border: none
+			cursor: pointer
+			-webkit-transition: all .5s 
+			-moz-transition: all .5s 
+			-ms-transition: all .5s 
+			-o-transition: all .5s 
+			transition: all .5s 
+			&:hover
+				box-shadow: 1px 1px 21px 5px rgba(255, 205, 0, .4)
+			img
+				position: absolute
+				top: 50%
+				-webkit-transform: translateY(-55%)
+				-moz-transform: translateY(-55%)
+				-ms-transform: translateY(-55%)
+				-o-transform: translateY(-55%)
+				transform: translateY(-55%)
+				right: 15px
+		&-consent
+			margin-top: 12px
+			display: flex
+			-webkit-align-items: center
+			align-items: center
+		&-label
+			color: #858585
+			font-family: $gilroy-light
+			font-size: 12px
+			line-height: 18px
+		&-checkbox
+			border-radius: 4px
+			background-color: #2d2d2d
+			color: #f7c700
+			font-family: $gujarati
+			font-size: 12px
+			line-height: 18px
+			// Text style for ">"
+			letter-spacing: 0.12px
+			

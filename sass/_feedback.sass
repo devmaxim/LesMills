@@ -1,0 +1,66 @@
+.feedback
+	background: black url('../img/feedback/feedback-bg.png') center -200px no-repeat
+	
+	padding-top: 200px
+	padding-bottom: 224px
+	margin-top: -1px
+	&__title
+		font-family: $gilroy-extra-bold
+		font-size: 38px
+		line-height: 50px
+		text-transform: uppercase
+		text-align: center
+		margin: 0
+		margin-bottom: 54px
+	&__slider
+		padding-bottom: 20px
+		&-item
+			&:focus
+				outline: none 
+		&-numbers
+			width: 85px
+			margin-left: auto
+			margin-right: auto
+			position: relative
+			&-item
+				span
+					font-family: $gilroy-medium
+					font-size: 28px
+					line-height: 36px
+					text-transform: uppercase
+					sup
+						color: #747474
+						font-size: 18px
+				&:focus
+					outline: none
+		&-arrow
+			&_left
+				background: url('../img/feedback/feedback-arrow-left.png') center no-repeat
+				width: 11px
+				height: 22px
+				position: absolute
+				bottom: 7px
+				left: -30px
+				cursor: pointer
+			&_right
+				background: url('../img/feedback/feedback-arrow-right.png') center no-repeat
+				width: 11px
+				height: 22px
+				position: absolute
+				bottom: 7px
+				right: -30px
+				cursor: pointer
+.feedback__slider-item.slick-slide
+	-webkit-transition: all .5s 
+	-moz-transition: all .5s 
+	-ms-transition: all .5s 
+	-o-transition: all .5s 
+	transition: all .5s 
+	opacity: .4 
+.feedback__slider-item.slick-center
+	-webkit-transform: scale(1.3) 
+	-moz-transform: scale(1.3) 
+	-ms-transform: scale(1.3) 
+	-o-transform: scale(1.3) 
+	transform: scale(1.3) 
+	opacity: 1
